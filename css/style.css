@@ -18,7 +18,7 @@ button {
 
 button:hover {
   background-color: #d9400e;
-  border-color: #cf3d0e;
+  border-color: #60A0E0;
   cursor: pointer;
 }
 
@@ -31,7 +31,7 @@ a {
 a:hover {
   cursor: pointer;
   border: none;
-  color: #55acee
+  color: #60A0E0;
 }
 
 .content {
@@ -47,12 +47,11 @@ ul {
 
 /* Navigation Section */
 .top-navigation {
-  background-color: #fff;
+  background-color: #60A0E0;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-
 }
 
 .top-navigation > .content {
@@ -65,7 +64,7 @@ ul {
 
 .top-navigation .links {
   float: right;
-  color: #838994;
+  color: #fff;
   font-size: 1.04rem;
   margin-top: 1.7rem;
   padding-right: 2em;
@@ -78,13 +77,13 @@ ul {
 }
 
 .top-navigation .links li.active {
-  color: #55acee;
+  color: #fff;
   font-weight: 500;
 }
 
 .top-navigation .links li:hover {
   cursor: pointer;
-  color: #55acee;
+  color: #fff;
 }
 
 /** Introduction Section */
@@ -124,18 +123,20 @@ ul {
 
 /** About Me & Work */
 .me,
-.work {
-  background-color: #fff;
+.work,
+.social {
+  background-color:#3D4146;
   overflow: hidden;
   padding-bottom: 5rem;
-  border: 1px dotted;
+  border: 1px dotted #fff;
 }
 
 .me .content,
-.work .content {
+.work .content,
+.social .content {
   margin-top: 2rem;
   padding: 5em;
-  color: #1d1e21;
+  color: #fff;
   text-align: center;
 }
 
@@ -162,20 +163,10 @@ ul {
   width: 100;
   text-align: center;
   margin-top: -2em;
-  color: #55acee;
+  color: #60A0E0;
 }
-
-
-
-
 
 /** Footer */
-.social {
-  background-color: #fff;
-  overflow: auto;
-  padding: 5em;
-  text-align: center;
-}
 
 
 .social .icons > li {
@@ -190,12 +181,12 @@ ul {
 
 .social .icons > li:hover {
   cursor: pointer;
-  color: #55acee;
+  color: #60A0E0;
 }
 
 
 .social .copy {
   font-size: 0.9rem;
   font-weight: 300;
-  color: #838994;
+  color: #60A0E0;
 }
