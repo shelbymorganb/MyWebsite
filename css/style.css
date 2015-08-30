@@ -168,6 +168,9 @@ ul {
 
 /** Footer */
 
+.social .icons a {
+  border: none;
+}
 
 .social .icons > li {
   border-radius: 1.25rem;
