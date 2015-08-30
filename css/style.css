@@ -30,8 +30,8 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: #333333;
   border: none;
+  color: #55acee
 }
 
 .content {
@@ -78,13 +78,13 @@ ul {
 }
 
 .top-navigation .links li.active {
-  color: #4c5058;
+  color: #55acee;
   font-weight: 500;
 }
 
 .top-navigation .links li:hover {
   cursor: pointer;
-  color: #333333;
+  color: #55acee;
 }
 
 /** Introduction Section */
@@ -162,6 +162,7 @@ ul {
   width: 100;
   text-align: center;
   margin-top: -2em;
+  color: #55acee;
 }
 
 
