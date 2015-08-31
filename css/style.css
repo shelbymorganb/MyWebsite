@@ -1,7 +1,12 @@
 /** Common Styles */
+
+
 body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 button {
@@ -35,7 +40,6 @@ a:hover {
 }
 
 .content {
-  padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
 }
@@ -129,6 +133,7 @@ ul {
   overflow: hidden;
   padding-bottom: 5rem;
   border: 1px dotted #fff;
+
 }
 
 .me .content,
@@ -138,6 +143,7 @@ ul {
   padding: 5em;
   color: #fff;
   text-align: center;
+  position: relative;
 }
 
 .me h2,
@@ -159,8 +165,6 @@ ul {
 /* Spinner */
 
 .work .spinner {
-  margin: 0 auto;
-  width: 100;
   text-align: center;
   margin-top: -2em;
   color: #60A0E0;
@@ -169,24 +173,38 @@ ul {
 /** Footer */
 
 
+.social .icons {
+  padding-left: 0;
+  padding-bottom: 2em;
+}
+
+.social .icons a {
+  border: none;
+}
+
 .social .icons > li {
-  border-radius: 1.25rem;
-  width: 2.5rem;
+  border-radius: 50%;
   display: inline-block;
-  margin: 1.25rem 5px;
+  margin: 1.25em;
   border: 1px solid #eaebec;
-  padding: 0.625rem 0;
+  padding: 1em;
   text-align: center;
 }
 
 .social .icons > li:hover {
   cursor: pointer;
   color: #60A0E0;
+  border-color: #60A0E0;
 }
 
 
 .social .copy {
-  font-size: 0.9rem;
+  font-size: 1em;
   font-weight: 300;
   color: #60A0E0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
 }
