@@ -132,7 +132,8 @@ ul {
   background-color:#3D4146;
   overflow: hidden;
   padding-bottom: 5rem;
-  border: 1px dotted #fff;
+  border-bottom: 1px dotted #fff;
+  border-top: 1px dotted #fff;
 
 }
 
@@ -144,6 +145,7 @@ ul {
   color: #fff;
   text-align: center;
   position: relative;
+
 }
 
 .me h2,
